@@ -4,7 +4,7 @@ header{
   height:69px;
   background-color: black;
   opacity:0.9;
-  align-items:center;
+  align-items: center;
 }
 
 #logo{
@@ -12,7 +12,7 @@ header{
   flex-grow: 1;
   opacity:0.9;
   height:69px;
-  align-items: center;
+  border-bottom: 1px solid seashell;
 }
 
 nav span a{
@@ -27,4 +27,33 @@ nav span a{
 img{
   margin-left: 10px;
   font-size: 50px;
+}
+
+#insec{
+  display:flex;
+  border:1px solid;
+  align-items: center;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+section{
+  border:1px solid;
+  display: flex;
+  height:700px;
+  width:1200px;
+  margin:0 auto;
+
+}
+
+
+#insec1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border:1px solid;
+}
+
+#insec1 h2, #insec1 h4{
+
 }
